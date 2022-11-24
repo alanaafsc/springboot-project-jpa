@@ -2,4 +2,13 @@
 
 # Spring Boot Project
 
-Projeto web services com Spring Boot e JPA / Hibernate.
+Web services project with Spring Boot and JPA / Hibernate.
+
+## Tools used
+- Framework Spring Boot
+- Apache Tomcat
+- Maven
+- Database H2
+- Postman
+- PostgreSQL
+- Heroku
