@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Profile;
 import com.github.alanaafsc.coursespring.entities.Category;
 import com.github.alanaafsc.coursespring.entities.Order;
 import com.github.alanaafsc.coursespring.entities.OrderItem;
+import com.github.alanaafsc.coursespring.entities.Payment;
 import com.github.alanaafsc.coursespring.entities.Product;
 import com.github.alanaafsc.coursespring.entities.User;
 import com.github.alanaafsc.coursespring.entities.enums.OrderStatus;
@@ -80,6 +81,11 @@ public class TestConfig implements CommandLineRunner {
 		OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice());
 		
 		orderItemRepository.saveAll(Arrays.asList(oi1, oi2, oi3, oi4));
+		
+		Payment pay1 = new Payment(null, Instant.parse("2019-06-20T21:53:07Z"), o1);
+		o1.setPayment(pay1);
+		
+		orderRepository.save(o1);
 	}
 
 }
