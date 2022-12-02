@@ -13,6 +13,10 @@ The application consists of a product purchase system where users can be registe
 ## Conceptual model
 ![Conceptual model](https://github.com/alanaafsc/springboot-project-jpa/blob/main/assets/model.png)
 
+## Logical layers
+![Logical layers](https://github.com/alanaafsc/springboot-project-jpa/blob/main/assets/layers.png)
+
+
 # Technologies used:
 ## Back end
 - Java
