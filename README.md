@@ -20,9 +20,7 @@ The application consists of a product purchase system where users can be registe
 # Technologies used:
 ## Back end
 - Java
-- Spring Boot
 - JPA / Hibernate
-- Maven
 - Framework Spring Boot
 - Apache Tomcat
 - Maven
